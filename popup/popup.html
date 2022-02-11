@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <form id="clalit-details-form">
+		<label for="fname">Id:</label><br>
+		<input type="text" id="fname" name="fname" value="315819094"><br>
+		<label for="fname">Clalit user code:</label><br>
+		<input type="text" id="fname" name="fname" value="liors619"><br>
+		<label for="lname">Clalit password:</label><br>
+		<input type="password" id="lname" name="lname" value="a"><br><br>
+		
+		<input type="submit" value="Submit">
+	</form> 
+	
+	<div id="appointment-details-div">
+		<span> your appointment date: </span> <br>
+		<span> &emsp;<b id="current-appointment-date"> - loading...</b> </span><br>
+		<span> next free appointment: </span> <br>
+		<span> &emsp;<b id="next-free-appointment-date">- loading...</b> </span><br><br>
+		<span> last updated on:</span>
+		<span id="last-updated-on"></span>
+
+	</div>
+	<script type="text/javascript" src="./popup.js"></script>
+  </body>
+</html>
