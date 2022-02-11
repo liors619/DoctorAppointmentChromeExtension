@@ -3,6 +3,10 @@
   "description": "",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": ["notifications", "storage"],
+  "background": {
+    "service_worker": "backgroundScript/background.js"
+  },
   "action": {
     "default_popup": "popup/popup.html",
 	"default_icon": {
